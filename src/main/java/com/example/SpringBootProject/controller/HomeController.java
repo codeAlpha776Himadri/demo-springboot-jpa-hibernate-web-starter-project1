@@ -16,7 +16,7 @@ import com.example.SpringBootProject.model.User;
 
 @RestController
 @RequestMapping("/home")
-// @ResponseBody // will return string not view 
+// @ResponseBody // will return string not view
 public class HomeController {
 
     @Autowired

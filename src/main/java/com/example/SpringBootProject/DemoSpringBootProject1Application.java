@@ -16,7 +16,7 @@ public class DemoSpringBootProject1Application implements CommandLineRunner {
     @Autowired
     UserDao userDao ;
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         SpringApplication.run(DemoSpringBootProject1Application.class, args) ;
     }
 
